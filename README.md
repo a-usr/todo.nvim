@@ -34,6 +34,7 @@ There are four types of commands can be used in the floating window:
 | :------------------------------------------- | :---------------------------------- |
 | `add {priority} {to-do}`                     | Add a new to-do                     |
 | `delete {priority}`                          | Delete a to-do                      |
+| `clear`                                      | Clear Done to-dos                   |
 | `done {priority}`                            | Mark a to-do as done                |
 | `edit {priority} {new-to-do}/{new-priority}` | Edit a to-do's priority or contents |
 
