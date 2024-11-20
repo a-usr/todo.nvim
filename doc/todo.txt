@@ -49,7 +49,7 @@ There are four types of commands can be used in the floating window:
         Delete a to-do
 
         Parameters: ~
-            {priority}  Priority of the to-do to be deleted
+            {priority}  Priority of the to-do to be deleted, defaults to 1
 
         Examples: ~
             `delete 1`
@@ -57,12 +57,22 @@ There are four types of commands can be used in the floating window:
 
         Hints: ~
           - use `de, del`, etc for short
+    
+    |clear| 
+        Clear Completed to-dos
+
+        Examples: ~
+            `clear`
+
+        Hints: ~
+          - use `cl, cle`, etc for short
 
     |done| {priority}
         Mark a to-do as done
 
         Parameters: ~
-            {priority}  Priority of the to-do that has been done
+            {priority}  Priority of the to-do that has been done, defaults to
+            1
 
         Examples: ~
             `done 1`
