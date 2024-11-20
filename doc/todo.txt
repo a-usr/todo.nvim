@@ -11,7 +11,7 @@ Getting started with todo:
     2. Run `:Todo` to start.
 
 For Mac OS users, you can load your to-do list to Reminder, see
-*todo-extension* for more details.
+|todo-extension| for more details.
 
                                                            *todo-requirements*
 This plugin works in Neovim 0.7 or higher.
