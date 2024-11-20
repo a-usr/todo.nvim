@@ -125,8 +125,8 @@ function Previewer:_edit(priority, task_or_priority)
 end
 
 function Previewer:load_file()
-  if vim.fn.filereadable(self.opts.file) == 0 then
-    vim.fn.writefile({}, self.opts.file)
+  if vim.fn.filereadable(self.opts.file_path) == 0 then
+    vim.fn.writefile({}, self.opts.file_path)
   end
 
   local file = io.open(self.opts.file_path, "r")
